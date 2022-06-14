@@ -1,1 +1,1 @@
-web: gunicorn udemy-weather.wsgi
+web: gunicorn weather.wsgi
