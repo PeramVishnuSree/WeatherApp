@@ -67,6 +67,3 @@ def home(request):
 
         return render(request, 'home.html', {'api': api, 'category_description': category_description, 'category_color': category_color})
 
-def about(request):
-
-    return render(request, 'about.html', {})

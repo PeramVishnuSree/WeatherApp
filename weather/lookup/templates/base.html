@@ -29,13 +29,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-
-          <li class="nav-item">
-            <a class="nav-link" href="{% url 'about' %}">About Me</a>
-          </li>
-
-        </ul>
+        <ul class="navbar-nav mr-auto"></ul>
         <form action = "{% url 'home' %}" class="form-inline my-2 my-lg-0" method = "POST">
           {% csrf_token %}
           <input class="form-control mr-sm-2" type="search" placeholder="Enter zip code" aria-label="Search" name = "zipcode">
