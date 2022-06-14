@@ -1,1 +1,1 @@
-web gunicorn udemy-weather.wsgi:application --log-file -
+web: gunicorn udemy-weather.wsgi
